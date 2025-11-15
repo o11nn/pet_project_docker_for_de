@@ -21,11 +21,11 @@ docker run --rm -e DB_HOST=prod-server -e DB_NAME=analytics simple_container_wit
 ## Запуск с несколькими переменными
 
 ```bash
-docker run --rm \
-  -e DB_HOST=prod-server.example.com \
-  -e DB_NAME=analytics_db \
-  -e DB_PORT=5432 \
-  -e DB_USER=data_engineer \
+docker run --rm `
+  -e DB_HOST=prod-server.example.com `
+  -e DB_NAME=analytics_db `
+  -e DB_PORT=5432 `
+  -e DB_USER=data_engineer `
   simple_container_with_env
 ```
 
